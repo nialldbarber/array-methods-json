@@ -1,0 +1,259 @@
+[
+  {
+    "id": 1,
+    "name": "from()",
+    "code": "Array.from()",
+    "description": "The Array.from() method creates a new, shallow-copied Array instance from an array-like or iterable object.",
+    "example": "Array.from(`hello there`)",
+    "mutate": false
+  },
+  {
+    "id": 2,
+    "name": "isArray()",
+    "code": "Array.isArray()",
+    "description": "The Array.isArray() method determines whether the passed value is an Array.",
+    "example": "Array.isArray([1, 2, 3]) // true!",
+    "mutate": false
+  },
+  {
+    "id": 3,
+    "name": "of()",
+    "code": "Array.of()",
+    "description": "The Array.of() method creates a new Array instance from a variable number of arguments, regardless of number or type of the arguments.",
+    "example": "Array.of(1, 2, 3) // [1, 2, 3]",
+    "mutate": false
+  },
+  {
+    "id": 4,
+    "name": "concat()",
+    "code": "Array.prototype.concat()",
+    "description": "The concat() method is used to merge two or more arrays. This method does not change the existing arrays, but instead returns a new array.",
+    "example": "const newArray = array1.concat(array2); // [`a`, `b`, `c`, `d`, `e`, `f`]",
+    "mutate": false
+  },
+  {
+    "id": 5,
+    "name": "copyWithin()",
+    "code": "Array.prototype.copyWithin()",
+    "description": "",
+    "example": "",
+    "mutate": true
+  },
+  {
+    "id": 6,
+    "name": "entries()",
+    "code": "Array.prototype.entries()",
+    "description": "",
+    "example": ""
+  },
+  {
+    "id": 7,
+    "name": "every()",
+    "code": "Array.prototype.every()",
+    "description": "",
+    "example": ""
+  },
+  {
+    "id": 8,
+    "name": "fill()",
+    "code": "Array.prototype.fill()",
+    "description": "",
+    "example": ""
+  },
+  {
+    "id": 9,
+    "name": "filter()",
+    "code": "Array.prototype.filter()",
+    "description": "",
+    "example": ""
+  },
+  {
+    "id": 10,
+    "name": "find()",
+    "code": "Array.prototype.find()",
+    "description": "",
+    "example": ""
+  },
+  {
+    "id": 11,
+    "name": "findIndex()",
+    "code": "Array.prototype.findIndex()",
+    "description": "",
+    "example": ""
+  },
+  {
+    "id": 12,
+    "name": "flat()",
+    "code": "Array.prototype.flat()",
+    "description": "",
+    "example": ""
+  },
+  {
+    "id": 13,
+    "name": "flatMap()",
+    "code": "Array.prototype.flatMap()",
+    "description": "",
+    "example": ""
+  },
+  {
+    "id": 14,
+    "name": "forEach()",
+    "code": "Array.prototype.forEach()",
+    "description": "",
+    "example": ""
+  },
+  {
+    "id": 15,
+    "name": "includes()",
+    "code": "Array.prototype.includes()",
+    "description": "",
+    "example": ""
+  },
+  {
+    "id": 16,
+    "name": "indexOf()",
+    "code": "Array.prototype.indexOf()",
+    "description": "",
+    "example": ""
+  },
+  {
+    "id": 17,
+    "name": "join()",
+    "code": "Array.prototype.join()",
+    "description": "",
+    "example": ""
+  },
+  {
+    "id": 18,
+    "name": "keys()",
+    "code": "Array.prototype.keys()",
+    "description": "",
+    "example": ""
+  },
+  {
+    "id": 19,
+    "name": "lastIndexOf()",
+    "code": "Array.prototype.lastIndexOf()",
+    "description": "",
+    "example": ""
+  },
+  {
+    "id": 20,
+    "name": "map()",
+    "code": "Array.prototype.map()",
+    "description": "",
+    "example": ""
+  },
+  {
+    "id": 21,
+    "name": "pop()",
+    "code": "Array.prototype.pop()",
+    "description": "",
+    "example": ""
+  },
+  {
+    "id": 22,
+    "name": "push()",
+    "code": "Array.prototype.push()",
+    "description": "",
+    "example": ""
+  },
+  {
+    "id": 23,
+    "name": "reduce()",
+    "code": "Array.prototype.reduce()",
+    "description": "",
+    "example": ""
+  },
+  {
+    "id": 24,
+    "name": "reduceRight()",
+    "code": "Array.prototype.reduceRight()",
+    "description": "",
+    "example": ""
+  },
+  {
+    "id": 25,
+    "name": "reverse()",
+    "code": "Array.prototype.reverse()",
+    "description": "",
+    "example": ""
+  },
+  {
+    "id": 26,
+    "name": "shift()",
+    "code": "Array.prototype.shift()",
+    "description": "",
+    "example": ""
+  },
+  {
+    "id": 27,
+    "name": "slice()",
+    "code": "Array.prototype.slice()",
+    "description": "",
+    "example": ""
+  },
+  {
+    "id": 28,
+    "name": "some()",
+    "code": "Array.prototype.some()",
+    "description": "",
+    "example": ""
+  },
+  {
+    "id": 29,
+    "name": "sort()",
+    "code": "Array.prototype.sort()",
+    "description": "",
+    "example": ""
+  },
+  {
+    "id": 30,
+    "name": "splice()",
+    "code": "Array.prototype.splice()",
+    "description": "",
+    "example": ""
+  },
+  {
+    "id": 31,
+    "name": "toLocaleString()",
+    "code": "Array.prototype.toLocaleString()",
+    "description": "",
+    "example": ""
+  },
+  {
+    "id": 32,
+    "name": "toSource()",
+    "code": "Array.prototype.toSource()",
+    "description": "",
+    "example": ""
+  },
+  {
+    "id": 33,
+    "name": "toString()",
+    "code": "Array.prototype.toString()",
+    "description": "",
+    "example": ""
+  },
+  {
+    "id": 34,
+    "name": "unshift()",
+    "code": "Array.prototype.unshift()",
+    "description": "",
+    "example": ""
+  },
+  {
+    "id": 35,
+    "name": "values()",
+    "code": "Array.prototype.values()",
+    "description": "",
+    "example": ""
+  },
+  {
+    "id": 36,
+    "name": "",
+    "code": "Array.prototype[@@iterator]()* get Array[@@species]",
+    "description": "",
+    "example": ""
+  }
+]
